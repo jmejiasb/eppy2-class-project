@@ -1,0 +1,30 @@
+{
+    "game" : {
+        "screen_size" : [640,480],
+        "background_color" : [0,0,0],
+        "foreground_color" : [255,255,255],
+        "title" : "Shmup Game!!!"
+    },
+    "entities" : {
+        "hero" : {
+            "image_file": ["shmup.assets.images", "hero.png"],
+            "speed" : 0.5
+        }
+    },
+    "font" : {
+        "file" : ["shmup.assets.fonts", "Sansation.ttf"],
+        "size" : 16
+    },
+    "input" : {
+        "key_mapping" : {"left" : "left",
+        "right" : "right",
+        "up" : "up",
+        "down" : "down" }
+    },
+    "timing" : {
+        "fps" : 60,
+        "time_per_frame" : 16,
+        "fps_pos" : [0,0],
+        "max_update_time" : 1000
+    }
+}
